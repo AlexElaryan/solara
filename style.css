@@ -89,7 +89,7 @@ header nav ul li a {
 .intro h2,
 .h1 {
     width: fit-content;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
@@ -141,6 +141,7 @@ header nav ul li a {
 
 .home-about-us div {
     margin: 0 auto;
+    padding-left: 150px;
     width: 1249px;
     display: flex;
     flex-direction: column;
@@ -154,6 +155,7 @@ header nav ul li a {
 }
 
 .home-services h2 {
+    padding-left: 150px;
     display: flex;
     flex-direction: column;
     font-size: 40px;
@@ -213,7 +215,7 @@ header nav ul li a {
 
 .location {
     height: 661px;
-    padding: 77px 0 0 118px;
+    padding: 77px 0 0 150px;
     margin-top: 112px;
     background: url(img/map.jpg);
     background-size: cover;
@@ -485,6 +487,10 @@ header nav ul li a {
         width: 100%;
         margin: 0;
         gap: 15px;
+        padding-left: 180px;
+    }
+    .home-services h2, .location {
+        padding-left: 180px;
     }
 
     header {
@@ -608,6 +614,11 @@ header nav ul li a {
     .home-about-us {
         height: 545px;
     }
+
+    .home-about-us div, .home-services h2, .location {
+        padding-left: 20px;
+    }
+    
 }
 
 .logoMob,
@@ -712,6 +723,9 @@ header nav ul li a {
 
     .home-about-us div {
         gap: 36px;
+    }
+    .home-about-us div, .home-services h2 {
+        padding-left: 0;
     }
 
     .home-about-us>img {
