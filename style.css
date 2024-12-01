@@ -26,11 +26,14 @@ header {
 .head-title {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: #000;
     gap: 41px;
 }
 
 .head-title h2,
 .head-title span {
+    cursor: pointer;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -41,6 +44,7 @@ header {
 }
 
 .head-title img {
+    cursor: pointer;
     width: 107px;
     height: 115px;
     object-fit: cover;
@@ -139,7 +143,7 @@ header nav ul li a {
     width: 1249px;
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 25px;
 }
 
 .home-services {
@@ -156,8 +160,9 @@ header nav ul li a {
 }
 
 .home-services h2 span {
+    font-size: 28px;    
     font-weight: 400;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 .home-services-block {
@@ -461,6 +466,10 @@ header nav ul li a {
 
 
 /* ------------------------------------------------------- */
+
+.about-us-text h3, .home-services h2, .location h2, .contact h2, .h2 {
+    font-size: 32px;
+}
 
 
 @media screen and (max-width:1300px) {
