@@ -16,7 +16,7 @@ button {
 }
 
 header {
-    padding: 16px 250px 43px 68px;
+    padding: 8px 200px 20px 94px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,12 +26,12 @@ header {
 .head-title {
     display: flex;
     align-items: center;
-    gap: 75px;
+    gap: 41px;
 }
 
 .head-title h2,
 .head-title span {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -54,7 +54,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
     color: #000;
@@ -122,8 +122,9 @@ header nav ul li a {
 }
 
 .about-us-text p {
+    max-width: 628px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .home-about-us h2 {
@@ -134,8 +135,8 @@ header nav ul li a {
 }
 
 .home-about-us div {
-    margin-left: 338px;
-    max-width: 628px;
+    margin: 0 auto;
+    width: 1249px;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -256,7 +257,7 @@ header nav ul li a {
 }
 
 .contact-right {
-    width: 610px;
+    width: 504px;
     display: flex;
     flex-direction: column;
     gap: 34px;
@@ -469,6 +470,12 @@ header nav ul li a {
         padding-right: 20px;
     }
 
+    .home-about-us div {
+        width: 100%;
+        margin: 0;
+        gap: 15px;
+    }
+
     header {
         padding: 16px 40px;
     }
@@ -499,11 +506,6 @@ header nav ul li a {
 
     .home-services h2 span {
         line-height: 36px;
-    }
-
-    .home-about-us div {
-        gap: 15px;
-        margin-left: 160px;
     }
 
     .about-us-text p {
@@ -563,10 +565,6 @@ header nav ul li a {
     .home-services_box {
         width: 100%;
         gap: 24px;
-    }
-
-    .home-about-us div {
-        margin-left: 40px;
     }
 
     .intro>div {
@@ -636,6 +634,9 @@ header nav ul li a {
     .service-cont {
         padding: 65px 20px;
     }
+    .about-us-text p {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:679px) {
@@ -696,7 +697,6 @@ header nav ul li a {
 
     .home-about-us div {
         gap: 36px;
-        margin-left: 20px;
     }
 
     .home-about-us>img {
